@@ -45,7 +45,7 @@ RUN \
         rsync=3.2.3-r5 \
         v4l-utils=1.22.1-r1 \
     \
-    && MOTION_VERSION=4.3.2 \
+    && MOTION_VERSION=4.4.0 \
     && curl -J -L -o /tmp/motion.tar.gz \
         https://github.com/Motion-Project/motion/archive/release-${MOTION_VERSION}.tar.gz \
     && mkdir -p /tmp/motion \
